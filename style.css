@@ -118,9 +118,22 @@ body {
     padding: 16px;
     border-radius: 8px;
     border-left: 6px solid orange;
+    display: flex;
+    flex-direction: column;
 }
 .card-actions {
     display: flex;
     justify-content: end;
     gap: 12px;
+    margin-top: auto;
+}
+
+.card-actions button {
+    border: none;
+    background: none;
+}
+
+.card-actions svg {
+    width: 20px;
+    height: 20px;
 }
