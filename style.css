@@ -45,10 +45,13 @@ body {
 }
 .header {
     background-color: lightcoral;
+    padding: 20px;
 }
 .top-bar {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
+    align-items: center;
 }
 .search-area {
     display: flex;
@@ -60,6 +63,64 @@ body {
     width: 24px;
     height: 24px;
 }
+.search-area input {
+    flex: 1;
+}
+.user-area {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.user-area svg {
+    width: 24px;
+    height: 24px;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.greeting-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.greeting-area p {
+    margin: 0;
+}
+.action-area {
+    display: flex;
+    gap: 12px;
+}
 .main-content {
     background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px;
+    gap: 20px;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.project-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    border-left: 6px solid orange;
+}
+.card-actions {
+    display: flex;
+    justify-content: end;
+    gap: 12px;
 }
