@@ -179,6 +179,16 @@ body {
     gap: 12px;
 }
 
+.announcement {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.announcement h3, .announcement p {
+    margin: 0;
+}
+
 .trending {
     display: flex;
     flex-direction: column;
